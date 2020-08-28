@@ -1,0 +1,135 @@
+$backgroundcolor: #2F4C58;
+$backgroundOrange: #E49468;
+$backgroundSecond: #EEECEC;
+
+.Main-Contato{
+margin-top: 10%;
+display: grid;
+grid-template-rows: 5% 5% 10% 30.5% 10% 11.5% 13% 15%;
+grid-template-columns: 5% 5% 12% 3% 5% 15% 10% 15% 5% 3% 12% 5% 5%;
+background-color: #FAF9F9;
+margin-bottom: 13vw;
+}
+               
+.title-contato{
+grid-row-start: 1;
+grid-row-end: 2;
+grid-column-start:5 ;
+grid-column-end:8 ;
+font-size: 1.7vw;
+font-weight: bold;
+font-family: 'Limelight', cursive;
+color: rgb(95, 95, 95);
+
+}
+
+.form-contato{
+    grid-row-start: 4;
+    grid-row-end: 6;
+    grid-column-start:6 ;
+    grid-column-end: 9;
+}
+
+.contato-form{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+  }
+
+.contato{
+display: flex;
+flex-direction: column;
+
+}
+
+.input{
+width: 15vw;
+height: 1.5vw;
+border: 2px solid $backgroundcolor;
+}
+
+.message {
+    height: 8vw;
+    width: 15vw;
+    border: 2px solid $backgroundcolor;
+}
+
+input::placeholder{
+font-size: 1vw;
+}
+
+
+.btnenviar{
+    width: 20vw;
+    margin-top: 4%;
+margin-left: 23%;
+font-size: 1.17vw;
+background-color: $backgroundcolor;
+cursor: pointer;
+height: 2vw;
+color: white;
+border: none;
+}
+.background-contato{
+border: 2px solid $backgroundOrange;
+background-color: $backgroundOrange;
+height: 14vw;
+z-index: 10;
+ }
+ .left{
+grid-row-start: 4;
+grid-row-end: 6;
+grid-column-start:3 ;
+grid-column-end: 5;
+
+ }
+ .background-preferencia{
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start:11 ;
+    grid-column-end: 13;
+    border: 2px solid $backgroundSecond;
+    background-color: $backgroundSecond;
+    font-size: 1.17vw;
+    height: 15vw;
+    z-index: 11;
+
+ }
+
+.right{
+    grid-row-start: 4;
+    grid-row-end: 6;
+    grid-column-start:10 ;
+    grid-column-end: 12;
+}
+.background-visita{
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start:2 ;
+    grid-column-end: 4;
+    border: 2px solid $backgroundSecond;
+    background-color: $backgroundSecond;
+    height: 15vw;
+    z-index: 12;
+}
+
+.background-visita{
+    font-size: 1vw;
+}
+
+.map-home{
+grid-row-start: 6;
+grid-row-end: 9;
+grid-column-start:1 ;
+grid-column-end:14 ;
+height: 34vw;
+}
+
+@media(max-width: 499px){
+.Main-Contato{
+margin-bottom: 27vw;
+    }
+.map-home{
+height: 55vw;
+        }
+}

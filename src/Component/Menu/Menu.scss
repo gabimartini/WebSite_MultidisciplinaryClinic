@@ -1,0 +1,61 @@
+/* Font*/
+@import url('https://fonts.googleapis.com/css?family=Buda:300&display=swap');
+
+/* Define standard variables and values for website */
+$menucolor: white;
+$textcolor: rgb(160, 159, 159);
+$menufont: 'Buda', cursive;
+
+
+
+/* Menu*/
+.Main_Menu{
+    // border: 2px solid black;
+    width: 100%;
+    height: 56px;
+    background-color: $menucolor;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 90;
+
+}
+
+/* Menu_Items*/
+.Main_Items{
+    margin-top: 15px;
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Menu_Item*/
+.Menu_Item{
+     display: inline;
+     padding: 9px 18px;
+}
+
+.Menu_Item a{
+    text-decoration: none;
+    color: $textcolor;
+    font-size: calc(9px + 0.8vw);;
+}
+
+/* Menu_Mobile*/
+.Mobile{
+    display: flex;
+    flex-direction: column;
+}
+
+@media(max-width: 500px){
+    .Desktop{
+        display: none;
+    }
+}
+

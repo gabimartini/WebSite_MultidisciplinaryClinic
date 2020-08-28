@@ -1,0 +1,262 @@
+//---- Font
+@import url('https://fonts.googleapis.com/css?family=Buda:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Limelight&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap');
+
+$backgroundcolor: #FAF9F9;
+$color: rgb(95, 95, 95);
+$backgroundcolorsecond: #E49468;
+$backgroundcolorthree: #2F4C58;
+$font: 'buda', cursive;
+$fontTwo: 'Limelight', cursive;
+$fontThree: 'Cinzel Decorative', cursive;
+
+.Main-About{
+background-color: $backgroundcolor;
+margin-bottom: 50px;
+}
+.Quem-Somos-Main{
+display: grid;
+grid-template-rows: 10% 10% 10% 5% 10% 5% 27% 3% 10% 10% ;
+grid-template-columns: 5% 5% 15% 5% 25% 25% 10% 10% ;
+background-color: $backgroundcolor;
+}
+
+.Background-Quem-Somos{
+background-color: #F3F2F2;
+grid-row-start: 1;
+grid-row-end: 8;
+grid-column-start: 1 ;
+grid-column-end: 10;
+}
+.title-Quem-Somos{
+font-family: $fontTwo;
+font-size: large;
+grid-row-start: 1;
+grid-row-end: 2;
+grid-column-start: 2 ;
+grid-column-end: 5;
+color: $color;
+font-size: 3.2vw;
+
+}
+
+.btn {
+color: white;
+border: none;
+font-family: $font;
+font-size: 1.3vw;
+cursor: pointer;
+}
+.btnOne{
+grid-row-start: 4;
+grid-row-end: 5;
+grid-column-start: 3 ;
+grid-column-end: 4;
+background-color: $backgroundcolorsecond;
+text-align: center;
+text-decoration: none;
+padding-top: 0.4vw;
+
+
+}
+.btnTwo{
+grid-row-start:6 ;
+grid-row-end: 7;
+grid-column-start: 3 ;
+grid-column-end: 4;
+background-color: $backgroundcolorthree
+
+}
+.background-img-Quem-Somos{
+grid-row-start:3 ;
+grid-row-end: 10;
+grid-column-start: 5 ;
+grid-column-end: 7;
+height: 34vw;
+background: $backgroundcolorsecond;
+}
+.title-img{
+width: 45vw;
+font-family: $fontThree;
+color: rgb(243, 241, 241);
+font-size: 1.7vw;
+text-align: right;;
+}
+
+.background-Sobre-Equipe-Text{
+background-color: $backgroundcolor;
+grid-row-start:8 ;
+grid-row-end: 11;
+grid-column-start: 6 ;
+grid-column-end: 10;
+height: 15vw;
+
+}
+
+.img-equipe{
+width: 70%;
+height: auto;
+margin-left:14% ;
+
+}
+
+.text-sobre-equipe{
+font-family: $font;
+font-size: 1.3vw;
+padding: 1em;
+}
+
+
+// -------------
+
+.Sobre-Nos-Main{
+    background-color: white;
+    margin-top: 15vw;
+    display: grid;
+    grid-template-rows: 20% 15% 60% 5% 5%;
+    grid-template-columns: 100%;
+    }
+
+.background-title-Sobre-Nos{
+    grid-row-start:1 ;
+    grid-row-end: 3;
+    grid-column: 1;
+    background-color: $backgroundcolor;
+
+}
+.title-Sobre-Nos{
+    font-family: $fontThree;
+    color: $color;
+    font-size: 2vw;
+    margin-left: 5%;
+}
+.Row-Equipe{
+    grid-row-start:2 ;
+    grid-row-end: 4;
+    grid-column: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 1%;
+    margin-left: 0.5%;
+}
+
+.Main-apresentacao{
+    display: grid;
+    grid-template-rows: 5% 62% 14% 10% 14%;
+    grid-template-columns: 10% 10% 10% 50% 20%;
+    width: 23%;
+    
+  
+}
+
+.background-individual{
+    border: 2px solid $backgroundcolorthree;
+    background-color: $backgroundcolorthree;
+    grid-row-start:2 ;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    height: 23.3vw;
+}
+
+.second-color{
+    border: 2px solid $backgroundcolorsecond;
+    background-color: $backgroundcolorsecond;
+}
+
+.background-apresentacao{
+    border: 2px solid #e7e7e7;
+    background-color: #F3F1F1;
+     height: 23vw;
+    grid-row-start:1 ;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 6;
+
+}
+.title-apresentacao{
+    font-family: $fontThree;
+    color: $color;
+    text-align: center;
+    font-size: 1.3vw;
+
+}
+.apresentacao-historico{
+    font-family: $font;
+    font-size: 1.2vw;
+
+}
+
+.img-apresentacao{
+    border-radius: 100%;
+    width: 9vw;
+    height: 9vw;
+    grid-row-start:3 ;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+
+.name-apresentacao{
+    font-family: $fontThree;
+    font-size: 1vw;
+    color: rgb(151, 150, 150);
+    text-align: center;
+}
+
+.apresentacao-social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    margin-left: 17%;
+    font-size: 1.2vw;
+}
+
+.lkdin-sobre-nos{
+    color: $backgroundcolorthree;
+  }
+  
+  .fb-sobre-nos{
+    color: $backgroundcolorsecond
+  }
+  
+  .ig-sobre-nos{
+    border: 0.3vw solid  transparent;
+    color:  $backgroundcolorthree
+  }
+
+  @media(max-width: 499px){
+
+    .Sobre-Nos-Main{
+       grid-template-rows: 10% 15% 60% 5% 15%;
+        grid-template-columns: 100%;
+        }
+
+    .Row-Equipe{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Main-apresentacao{
+         width: 40%;
+         grid-template-rows: 5% 50% 15% 10% 25%;
+    }
+
+    .background-apresentacao{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .apresentacao-historico{
+        font-size: 1.4vw;
+    
+    }
+
+
+  }

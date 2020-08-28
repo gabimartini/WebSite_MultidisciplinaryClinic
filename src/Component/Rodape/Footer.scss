@@ -1,0 +1,143 @@
+/* Font*/
+@import url('https://fonts.googleapis.com/css?family=Buda:300&display=swap');
+
+$menufont: 'Buda', cursive;
+
+.footer{
+display: grid;
+grid-template-rows: 33% 33% 33%;
+grid-template-columns: 33% 33% 33% ;
+border: 2px solid #f3f1f1;
+background:rgb(243, 241, 241);
+font-family: $menufont;
+font-size: calc(7.5px + 0.5vw);
+height: 40vh;
+}
+
+.Adress{
+grid-row-start:1 ;
+grid-row-end: 2;
+grid-column-start: 1;
+grid-column-end: 2;
+justify-self: center;
+}
+
+.Apointment{
+grid-row-start: 1;
+grid-row-end: 2;
+grid-column-start: 2;
+grid-column-end: 3;
+justify-self: center;
+}
+
+.Phone{
+grid-row-start: 1;
+grid-row-end: 2;
+grid-column-start:3 ;
+grid-column-end: 4;
+justify-self: center;
+}
+
+.social{
+grid-row-start: 2;
+grid-row-end: 3;
+grid-column-start: 2;
+grid-column-end: 3;
+justify-self: center;
+}
+
+.copy{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    justify-self: center;
+    font-size: calc(6px + 0.5vw);
+  }
+
+span{
+    font-weight: bold;
+}
+ 
+  .fa {
+    padding: 0.7vw;
+    border-radius: 10%;
+    width: 2.2vw;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 5px;
+   
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .lkdin{
+    border: 0.3vw solid #2f4c58;
+    font-size: calc(7.5px + 1.2vw);
+    color: #2f4c58
+  }
+  
+  .fb{
+    border: 0.3vw solid #e49468;
+    font-size: calc(7.5px + 1.2vw);
+    color: #e49468
+  }
+  
+  .ig{
+    border: 0.3vw solid  #2f4c58;
+    font-size: calc(7.5px + 1.2vw);
+    color:  #2f4c58
+  }
+
+  @media(max-width: 499px){
+    .footer{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content:space-between ;
+      width: 98.7%;
+      // margin-top: 16.8vh;
+      padding-bottom: 0;
+
+    }
+
+     .Adress{
+       text-align: center;
+     }
+     .Apointment{
+      text-align: center;
+    //   grid-row-start: 2;
+    //   grid-row-end: 3;
+    //   grid-column-start: 2;
+    //   grid-column-end: 5;
+    //   justify-self: center;
+       }
+      
+       .Phone{
+        text-align: center;
+    //   grid-row-start: 3;
+    //   grid-row-end: 4;
+    //   grid-column-start:3 ;
+    //   // grid-column-end: 3;
+    //   // justify-self: center;
+       }
+      
+    //   .social{
+    //   grid-row-start: 4;
+    //   grid-row-end: 5;
+    //   grid-column-start: 2;
+    //    grid-column-end: 5;
+    //   justify-self: center;
+    //   }
+      
+    //   .copy{
+    //       grid-row-start: 5;
+    //       grid-row-end: 6;
+    //       grid-column-start: 2;
+    //       grid-column-end: 5;
+    //       justify-self: center;
+    //     }
+  }
+  

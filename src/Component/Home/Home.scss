@@ -1,0 +1,181 @@
+//Font
+@import url('https://fonts.googleapis.com/css?family=Sail&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Limelight&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Qwigley&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Buda:300&display=swap');
+
+$titlecolor: rgb(95, 95, 95);
+$backgroundcolor: #f3f1f1;
+$borderOne: #2f4c58;
+$bordertwo: #e49468;
+
+.Main-Content{
+    width: 100%;
+}
+
+.main-head{
+display: grid;
+grid-auto-rows: 5% 15% 15% 10% 15% 8% 9% 18% 5%;
+grid-column: 1% 10% 7% 3% 37% 3% 20%;
+}
+
+
+.background-head{
+    background-color: $backgroundcolor;
+    grid-column-start: 1;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end:8 ;
+}
+
+.title-border{
+    border: 1vw solid $borderOne;
+    grid-column-start: 3;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end:7 ;
+
+}
+
+.title{
+    font-family: 'Sail', cursive;
+    background-color: $backgroundcolor;
+    color: $titlecolor;
+    font-size: 4.8vw;
+    height: 5.1vw;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end:3 
+
+}
+
+.background-img{
+    border: 2vw solid rgb(243, 241, 241);
+    background-color: rgb(243, 241, 241) ;
+    grid-column-start: 5;
+    grid-row-start: 6;
+    grid-row-end: 7;
+
+   
+}
+
+.img{
+    grid-column-start: 5;
+    grid-row-start: 5;
+    grid-row-end: 10;
+    width: 45vw;
+    justify-self: center;
+
+}
+
+//-----
+
+
+.Services-Main{
+    display: grid;
+    grid-row: 25% 25% 5% 5% 10% 30%;
+    grid-column: 100%;
+    height: 40vw;
+    margin-top: 5vw;
+
+}
+
+.Title-Main{
+    background-color: rgb(250, 249, 249);
+    grid-row-start:1 ;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    color: $titlecolor;
+    text-align: center;
+}
+
+.Services-Title{
+    font-family: 'Limelight', cursive;
+    font-size: 2vw;
+}
+
+.Services-Sub-Title{
+    font-family: 'Qwigley', cursive;
+    font-size: 1.8vw;
+}
+
+.Service-Box{
+    grid-row-start:3 ;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.Service{
+    border: 2px solid $bordertwo;
+    background: $bordertwo ;
+    padding: 1.3vw;
+    height: 12vw;
+    margin-left: 25px;
+    font-size: 1.1vw;;
+}
+
+.Second-Color{
+    border: 2px solid $borderOne;
+    background: $borderOne ;
+}
+
+.Title-Area{
+    font-family: 'Limelight', cursive;
+    color: white;
+    font-size: 1.3vw;
+    
+}
+.Info-Area{
+    font-family: 'Buda', cursive;
+    color: white;
+    font-size: 1.2vw;
+}
+
+ @media(max-width: 499px){
+
+.Main-Content{
+ margin-bottom: 60vh;
+}
+
+.Title-Main{
+height: 17vh;
+}
+
+.Services-Main{
+    height: 60vh;
+}
+    .Service-Box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Service{
+        width: 8vh;
+        height: 12vh;
+        margin-bottom: 2vw;
+    }
+  
+
+ .Services-Title{
+       font-size: 0.9em;
+ }
+    
+ .Services-Sub-Title{
+     font-size: 0.9em;
+ }
+
+    .Title-Area{
+        font-size: 0.5rem;
+        
+    }
+    .Info-Area{
+        font-size: 0.4rem;
+    }
+
+}

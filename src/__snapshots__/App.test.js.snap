@@ -1,0 +1,343 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App snapshot test 1`] = `
+<div>
+  <div
+    className="Main-Content"
+  >
+    <div
+      className="Main_Menu"
+    >
+      <div
+        className="DrawerToggle"
+        onClick={[Function]}
+      >
+        <div />
+        <div />
+        <div />
+      </div>
+      <div
+        className="Desktop"
+      >
+        <div
+          className="Main_Items"
+        >
+          <li
+            className="Dropbtn"
+          />
+          <div
+            className="Desktop_Menu"
+          >
+            <li
+              className="Menu_Item"
+            >
+              <a
+                aria-current="page"
+                className="active"
+                href="/"
+                onClick={[Function]}
+                style={Object {}}
+              >
+                Home
+              </a>
+            </li>
+            <li
+              className="Menu_Item"
+            >
+              <a
+                aria-current={null}
+                href="/Sobre"
+                onClick={[Function]}
+              >
+                Sobre Nós
+              </a>
+            </li>
+            <li
+              className="Menu_Item"
+            >
+              <a
+                aria-current={null}
+                href="/Contato"
+                onClick={[Function]}
+              >
+                Contato
+              </a>
+            </li>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        className={
+          Array [
+            "SideDrawer Close",
+          ]
+        }
+      >
+        <nav
+          onClick={[Function]}
+        >
+          <div
+            className="Mobile"
+          >
+            <li
+              className="Menu_Item"
+            >
+              <a
+                aria-current="page"
+                className="active"
+                href="/"
+                onClick={[Function]}
+                style={Object {}}
+              >
+                Home
+              </a>
+            </li>
+            <li
+              className="Menu_Item"
+            >
+              <a
+                aria-current={null}
+                href="/Sobre"
+                onClick={[Function]}
+              >
+                Sobre Nós
+              </a>
+            </li>
+            <li
+              className="Menu_Item"
+            >
+              <a
+                aria-current={null}
+                href="/Contato"
+                onClick={[Function]}
+              >
+                Contato
+              </a>
+            </li>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <main
+      className="Content"
+    >
+      <div
+        className="Main-Content"
+      >
+        <div
+          className="main-head"
+        >
+          <div
+            className="background-head"
+          >
+             
+          </div>
+          <div
+            className="title-border"
+          >
+             
+          </div>
+          <p
+            className="title"
+          >
+            Equipe Multidisciplinar
+          </p>
+          <div
+            className="background-img"
+          />
+          <img
+            alt=""
+            className="img"
+            src="equipe-cinza.png"
+          />
+        </div>
+        <div
+          className="Services-Main"
+        >
+          <div
+            className="Title-Main"
+          >
+            <p
+              className="Services-Title"
+            >
+              Nossos Serviços
+            </p>
+            <p
+              className="Services-Sub-Title"
+            >
+              Nossa Equipe trabalha de forma humanizada
+            </p>
+          </div>
+          <div
+            className="Service-Box"
+          >
+            <div
+              className="Service Mobile-One"
+            >
+              <span>
+                <div
+                  className="Title-Area"
+                >
+                  Nutrição
+                </div>
+              </span>
+              <p
+                className="Info-Area"
+              >
+                ⏵Funcional 
+                <br />
+                ⏵Alimentação 
+                <br />
+                Comportamental 
+                <br />
+                ⏵Nutrição Infantil
+              </p>
+            </div>
+            <div
+              className="Service Second-Color Mobile-Two"
+            >
+              <span>
+                <div
+                  className="Title-Area"
+                >
+                  Psicologia
+                </div>
+              </span>
+              <p
+                className="Info-Area"
+              >
+                ⏵Funcional 
+                <br />
+                ⏵Alimentação 
+                <br />
+                 Comportamental 
+                <br />
+                ⏵Nutrição Infantil
+              </p>
+            </div>
+            <div
+              className="Service Mobile-Three"
+            >
+              <span>
+                <div
+                  className="Title-Area"
+                >
+                  Medicina
+                </div>
+              </span>
+              <p
+                className="Info-Area"
+              >
+                ⏵Funcional 
+                <br />
+                ⏵Alimentação 
+                <br />
+                Comportamental 
+                <br />
+                ⏵Nutrição Infantil
+              </p>
+            </div>
+            <div
+              className="Service Second-Color Mobile-Four"
+            >
+              <span>
+                <div
+                  className="Title-Area"
+                >
+                  Fisioterapia
+                </div>
+              </span>
+              <p
+                className="Info-Area"
+              >
+                ⏵Funcional 
+                <br />
+                ⏵Alimentação 
+                <br />
+                Comportamental 
+                <br />
+                ⏵Nutrição Infantil
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer
+      className="footer"
+    >
+      <p
+        className="Adress"
+      >
+        <span>
+          Sabe onde nos encontrar?
+        </span>
+         
+        <br />
+        R. Alm. Carlos da Silveira Carneiro, 182 - 
+        <br />
+        Agronômica, Florianópolis - SC, 88025-350, Brasil
+      </p>
+      <p
+        className="Apointment"
+      >
+        <span>
+          Nosso horário de atendimento:
+        </span>
+         
+        <br />
+        Segunda á sexta: 
+        <br />
+         das 8:00 às 18:00
+      </p>
+      <p
+        className="Phone"
+      >
+        <span>
+          Quer marcar um horário por telefone?
+        </span>
+         
+        <br />
+        048 12345678
+      </p>
+      <div
+        className="social"
+      >
+        <a
+          className="fa fa-linkedin lkdin"
+          href="https://www.linkedin.com/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+           
+        </a>
+        <a
+          className="fa fa-facebook fb"
+          href="https://www.linkedin.com/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+           
+        </a>
+        <a
+          className="fa fa-instagram ig"
+          href="https://www.linkedin.com/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+           
+        </a>
+      </div>
+      <div
+        className="copy"
+      >
+        <p>
+          Copyright ©2020 All rights reserved by Gabriela Martini
+        </p>
+      </div>
+    </footer>
+  </div>
+</div>
+`;
