@@ -1,7 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).<br></br>
 ✓Designed and developed entire business website, responsive, from concept through deployment.<br></br>
 ✓ Assessed UX and UI designs for better availability.<br></br>
-✓ Architecture tools: HTML, CSS, React Hook, JavaScript
+✓ Architecture tools: HTML3, CSS3, SAAS, React Hook, JavaScript
 
 *Currently working on
 ## Available Scripts
